@@ -5,3 +5,49 @@
     padding: 0;
     font-family: 'Montserrat', Arial, sans-serif;
 }
+
+
+#container {
+    position: relative;
+    top: 30px;
+    outline: 2px solid #000;
+    font-size: 0;
+    margin: auto;
+    height: 960px;
+    width: 960px;
+    padding: 0;
+    border: none;
+}
+
+.grid {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: 1px solid #000;
+    display: inline-block;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: underline;
+    font-size: 60px;
+}
+
+.btns {
+    align-self: center;
+    padding: 5px;
+    font-weight: bold;
+
+}
+
+footer {
+    margin: 0 20px;
+    text-align: right;
+}
