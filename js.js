@@ -22,7 +22,7 @@ function createGrid(x) {
     }
 
     let grids = document.getElementsByClassName('grid');
-    let gridWidth = 960 / x;
+    let gridWidth = 500 / x;
 
     for (let i = 0; i < grids.length; i++) {
         grids[i].style.width= gridWidth + 'px';
